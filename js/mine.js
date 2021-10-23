@@ -16,9 +16,9 @@ $(window).scroll(function(){
 
     if( scrollVal > 40){
 
-    $(".navbar").removeClass("bg-transparent")
+    $(".navbar").removeClass("bg-transparent , py-3")
 
-    $(".navbar").addClass("bg-light")
+    $(".navbar").addClass("bg-white , shadow-sm")
 
     $(".nav-link").removeClass("text-white")
 
@@ -34,9 +34,9 @@ $(window).scroll(function(){
     }
     else{
 
-        $(".navbar").removeClass("bg-light")
+        $(".navbar").removeClass("bg-white , shadow-sm")
 
-        $(".navbar").addClass("bg-transparent")
+        $(".navbar").addClass("bg-transparent , py-3")
 
         $(".nav-link").removeClass("text-dark")
 

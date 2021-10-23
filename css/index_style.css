@@ -56,9 +56,10 @@
 
 .navbar , .nav-link  {
 
-    transition:  background-color 0.5s ease , color 0.5s ease;
+    transition:  background-color 0.5s ease , color 0.5s ease , padding 0.3s ease;
 
 }
+
 
 .home{
     background: linear-gradient( #0000005e , #ffffff11 ), url(../imges/drew-coffman-1872.jpg);
