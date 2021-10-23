@@ -2,12 +2,119 @@
 /* Extra small devices (phones, 600px and down) */
 
 @media screen and (min-width:1px)  and (max-width:600px){
-    
-    .home{
-        height: 100vh;
+    .home .nav{
+        width: 100%;
     }
-
-
+    .nav{
+        width: 80%;
+        height: 35px;
+        margin: auto;
+        overflow: hidden;
+        position: fixed;
+        left: 0px;
+        font-family: 'Alegreya', serif;
+        font-family: 'Alegreya Sans', sans-serif;
+    }
+    .nav .logo img{
+        float: left;
+        width: 17%;
+    }
+    .nav .navLinks{
+        float: right;
+    }
+    .nav .navLinks ul{
+        list-style-type: none;
+    }
+    .nav .navLinks ul li{
+        display: inline-block;
+        padding: 10px;
+    }
+    .nav .navLinks ul li a{
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.767);
+        font-size: 10px;
+    }
+    .home .homeContent{
+        width: 100%;
+    }
+    .WhoWeAre .pic{
+        margin-left: 0px;
+        width: 100%;
+        float: left;
+    }
+    .WhoWeAre .paragraph{
+        width: 100%;
+        float: left;
+        margin-left: 0px;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    
+    .location .paragraph2{
+        margin-top: 100px;
+        margin-left: 0px;
+        width: 100%;
+        float: left;
+    }
+    .location .pic2 {
+        margin-right: 0px;
+        width: 100%;
+        float: right;
+    }
+    .allMeals .meal1{
+        margin-left: 0px;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .allMeals .meal2{
+        margin: 0px 0px;
+        width: 100%;
+        text-align: center;
+        float: left;
+    }
+    .allMeals .meal3{
+        width: 100%;
+        text-align: center;
+        float: left;
+    }
+    .contact .contactInfo{
+        color: rgba(120,120,120,255);
+        margin-top: 150px;
+        margin-left: 0px;
+        width: 100%;
+        float: left;
+    }
+    .contact .map{
+    margin-top: 150px;
+    margin-right: 0px;
+    width: 100%;
+    float:right;
+    }
+    .section4 .aboutUs{
+        width: 100%;
+        float: left;
+        margin-left: 0px;
+        padding: 0px 20px;
+    }
+    .section4 .special{
+        width: 100%;
+        float: left;
+        padding: 0px 20px;
+    }
+    .section4 .hours{
+        width: 100%;
+        float: left;
+        padding: 0px 20px;
+    }
+    .section4 .contact-details{
+        background-image: url(../imges/contact-details-map.png);
+        background-repeat: no-repeat;
+        background-size: 45% 70%;
+        width: 100%;
+        float: left;
+        padding: 0px 20px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
