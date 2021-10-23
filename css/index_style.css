@@ -65,8 +65,7 @@
     background: linear-gradient( #0000005e , #ffffff11 ), url(../imges/drew-coffman-1872.jpg);
     background-size: cover;
     background-position: center center;
-    height: 120vh;
-    overflow: auto;
+    height: 100vh;
 }
 
 .home .homeContent .buttons{
