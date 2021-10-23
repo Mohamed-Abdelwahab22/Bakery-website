@@ -1,0 +1,210 @@
+
+.gallery{
+    background-color: rgba(248,248,248,255);
+    height: 40vh;
+}
+
+.first{
+    padding: 0px 60px;
+    padding-top: 80px;
+    overflow: auto;
+}
+.first .contanier{
+    width: 33.3333333333%;
+    float: left;
+    position: relative;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    overflow: hidden;
+}
+
+
+.first .pic img{
+    height: 55%;
+    width: 100%;
+    transition: transform 1s;
+}
+.first .contanier .caption{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: rgba(133, 64, 0, 0.50);
+    text-align: center;
+    transition: right 1s;
+    width: 100%;
+    height: 100%;
+    transition: left 1s , transform 1s;
+}
+.first .contanier h2{
+    position: relative;
+    left: 120%;
+    padding: 10px 0px;
+    background-color: rgba(142,119,85,255);
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 400;
+    color: white;
+    transition:  left 2s;
+}
+.first .contanier p{
+    position: relative;
+    left: 130%;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    transition:  left 2s 0.4s;
+}
+
+
+ 
+.first .contanier:hover .caption {
+    left: 0%;
+    transform: rotate(360deg);
+}
+
+.first .contanier:hover .caption h2{
+    left: 0%;
+}
+
+.first .contanier:hover .caption p{
+    left: 0%;
+}
+.first .contanier:hover .pic img{
+    transform: scale(1.2);
+}
+
+.second{
+    padding: 0px 60px;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    overflow: auto;
+}
+.second .contanier{
+    width: 33.3333333333%;
+    float: left;
+    position: relative;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    overflow: hidden;
+}
+
+
+.second .pic img{
+    height: 55%;
+    width: 100%;
+    transition: transform 1s;
+}
+.second .contanier .caption{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: rgba(133, 64, 0, 0.50);
+    text-align: center;
+    transition: right 1s;
+    width: 100%;
+    height: 100%;
+    transition: left 1s , transform 1s;
+}
+.second .contanier h2{
+    position: relative;
+    left: 120%;
+    padding: 10px 0px;
+    background-color: rgba(142,119,85,255);
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 400;
+    color: white;
+    transition:  left 2s;
+}
+.second .contanier p{
+    position: relative;
+    left: 130%;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    transition:  left 2s 0.4s;
+}
+
+
+ 
+.second .contanier:hover .caption {
+    left: 0%;
+    transform: rotate(360deg);
+}
+
+.second .contanier:hover .caption h2{
+    left: 0%;
+}
+
+.second .contanier:hover .caption p{
+    left: 0%;
+}
+.second .contanier:hover .pic img{
+    transform: scale(1.2);
+}
+
+.detalisBG{
+    background-color: #403D38;
+}
+
+.line{
+    position: relative;
+}
+
+.line::after{
+    position: absolute;
+    content: "";
+    background-color: rgba(117, 117, 117, 0.548);
+    width: 100%;
+    height: 0.5px;
+    left: 0;
+    bottom: 0;
+}
+
+.mapBG{
+    background-image: url(../imges/contact-details-map.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footerBG{
+  background-color: #353330;
+}
+
+.socialIcon{
+  padding: 10px;
+  background-color:  rgba(117, 117, 117, 0.548);
+  border-radius: 50%0;
+  margin: 0px 5px;
+}
+
+.fa-facebook-f , .fa-google-plus-g , .fa-linkedin-in , .fa-twitter{
+  transition:  background-color 0.5s ;
+}
+
+.fa-facebook-f:hover{
+  background-color: #3B5998;
+}
+
+.fa-google-plus-g:hover{
+  background-color: #DD4B39 ;
+}
+
+.fa-linkedin-in:hover{
+  background-color: #007BB5 ;
+}
+
+.fa-twitter:hover{
+  background-color: #00ACED ;
+}

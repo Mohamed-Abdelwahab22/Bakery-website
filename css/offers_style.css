@@ -1,0 +1,79 @@
+
+
+.ourOffer{
+    background-image: url(../imges/drew-coffman-1872.jpg);
+    background-size:cover;
+    background-position: center center;
+    text-align: center;
+    height: 40vh;
+    overflow: auto;
+}
+
+
+
+.priceLine::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.5px;
+    background-color: rgba(129, 129, 129, 0.377);
+    left: 0;
+    bottom: 0;
+}
+
+
+.detalisBG{
+    background-color: #403D38;
+}
+
+.line{
+    position: relative;
+}
+
+.line::after{
+    position: absolute;
+    content: "";
+    background-color: rgba(117, 117, 117, 0.548);
+    width: 100%;
+    height: 0.5px;
+    left: 0;
+    bottom: 0;
+}
+
+.mapBG{
+    background-image: url(../imges/contact-details-map.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footerBG{
+  background-color: #353330;
+}
+
+.socialIcon{
+  padding: 10px;
+  background-color:  rgba(117, 117, 117, 0.548);
+  border-radius: 50%0;
+  margin: 0px 5px;
+}
+
+.fa-facebook-f , .fa-google-plus-g , .fa-linkedin-in , .fa-twitter{
+  transition:  background-color 0.5s ;
+}
+
+.fa-facebook-f:hover{
+  background-color: #3B5998;
+}
+
+.fa-google-plus-g:hover{
+  background-color: #DD4B39 ;
+}
+
+.fa-linkedin-in:hover{
+  background-color: #007BB5 ;
+}
+
+.fa-twitter:hover{
+  background-color: #00ACED ;
+}

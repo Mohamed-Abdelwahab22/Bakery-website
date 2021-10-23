@@ -1,0 +1,189 @@
+
+
+.loading{
+    background-color: rgb(105, 63, 0);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10000;
+    display:flex;
+    align-items: center;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+  
+    position: relative;
+    margin: 100px auto;
+  }
+  
+  .double-bounce1, .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #8E7754;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+  }
+  
+  .double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  @-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bounce {
+    0%, 100% { 
+      transform: scale(0.0);
+      -webkit-transform: scale(0.0);
+    } 50% { 
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+    }
+  }
+
+.navbar , .nav-link  {
+
+    transition:  background-color 0.5s ease , color 0.5s ease;
+
+}
+
+.home{
+    background: linear-gradient( #0000005e , #ffffff11 ), url(../imges/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 120vh;
+    overflow: auto;
+}
+
+.home .homeContent .buttons{
+    margin-top: 60px;
+}
+
+.home .homeContent .buttons .btn1{
+    font-family: 'Open Sans',arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 20px;
+    margin-right: 5px;
+    color: white;
+    border: none;
+    background-color: rgb(150, 126, 90);
+    border-radius: 5px;
+    text-decoration: none;
+    border: rgb(150, 126, 90) solid 2px;
+}
+
+.home .homeContent .buttons .btn1:hover{
+    background-color: white;
+    color: black;
+    border: white solid 2px;
+    transition: all 1s;
+}
+.home .homeContent .buttons .btn2{
+    font-family: 'Open Sans',arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 20px;
+    margin-left: 5px;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.home .homeContent .buttons .btn2:hover{
+    background-color: white;
+    color: black;
+    transition: all 1s;
+}
+
+.whoIcons{
+    padding: 10px;
+    border: 1px solid rgba(99, 99, 99, 0.479);
+    color: #8E7754;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.grayBG{
+    background-color: #F8F8F8;
+}
+
+
+.mapIcon{
+    background-color: #8E7754;
+    padding: 10px;
+    border: 1px solid rgba(99, 99, 99, 0.479);
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.detalisBG{
+    background-color: #403D38;
+}
+
+.line{
+    position: relative;
+}
+
+.line::after{
+    position: absolute;
+    content: "";
+    background-color: rgba(117, 117, 117, 0.548);
+    width: 100%;
+    height: 0.5px;
+    left: 0;
+    bottom: 0;
+}
+
+.mapBG{
+    background-image: url(../imges/contact-details-map.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footerBG{
+  background-color: #353330;
+}
+
+.socialIcon{
+  padding: 10px;
+  background-color:  rgba(117, 117, 117, 0.548);
+  border-radius: 50%0;
+  margin: 0px 5px;
+}
+
+.fa-facebook-f , .fa-google-plus-g , .fa-linkedin-in , .fa-twitter{
+  transition:  background-color 0.5s ;
+}
+
+.fa-facebook-f:hover{
+  background-color: #3B5998;
+}
+
+.fa-google-plus-g:hover{
+  background-color: #DD4B39 ;
+}
+
+.fa-linkedin-in:hover{
+  background-color: #007BB5 ;
+}
+
+.fa-twitter:hover{
+  background-color: #00ACED ;
+}

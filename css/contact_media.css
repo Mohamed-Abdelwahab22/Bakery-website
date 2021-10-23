@@ -1,0 +1,313 @@
+
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media screen and (min-width:1px)  and (max-width:600px){
+
+    .nav{
+        background-color: white;
+        width: 100%;
+        overflow: auto;
+        position: fixed;
+        z-index: 9999999999;
+    }
+    .nav .logo{
+        float: left;
+        width: 14%;
+    }
+    .nav .logo img{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .nav .navLinks{
+        float: right;
+    }
+    .nav .navLinks ul{
+        list-style-type: none;
+        margin-right: 50px;
+    }
+    .nav .navLinks ul li {
+        display: inline-block;
+        padding: 5px 5px;
+    }
+    .nav .navLinks ul li a{
+        text-decoration: none;
+        color: #333333;
+        font-family: 'Alegreya', serif;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 14px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+    .contact{
+        background-image: url(../imges/b3.jpg);
+        background-size:cover;
+        background-position: center center;
+        text-align: center;
+        height: auto;
+        overflow: auto;
+    }
+    .first .formContanier{
+        width: 100%;
+        float: left;
+        padding: 0px 60px;
+        padding-bottom: 50px;
+    }
+    .first .contact2Contanier{
+        width: 100%;
+        float: right;
+    }
+    .map{
+        width: 100%;
+        height: auto;
+    }
+    .info .aboutUs{
+        width: 100%;
+        float: left;
+        margin-left: 0px;
+        padding: 0px 0px;
+    }
+    .info .special{
+        width: 100%;
+        float: left;
+        padding: 0px 0px;
+    }
+    .info .hours{
+        width: 100%;
+        float: left;
+        padding: 0px 0px;
+    }
+    .info .contact-details{
+        background-image: url(../imges/contact-details-map.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: left center;
+        width: 100%;
+        float: left;
+        padding: 0px 0px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media screen  and (min-width:601px) and (max-width:768px){
+
+    .nav{
+        background-color: white;
+        width: 100%;
+        overflow: auto;
+        position: fixed;
+        z-index: 9999999999;
+    }
+    .nav .logo{
+        float: left;
+        width: 14%;
+    }
+    .nav .logo img{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .nav .navLinks{
+        float: right;
+    }
+    .nav .navLinks ul{
+        list-style-type: none;
+    }
+    .nav .navLinks ul li {
+        display: inline-block;
+        padding: 5px 10px;
+    }
+    .nav .navLinks ul li a{
+        text-decoration: none;
+        color: #333333;
+        font-family: 'Alegreya', serif;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 15px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+    .contact{
+        background-image: url(../imges/b3.jpg);
+        background-size:cover;
+        background-position: center center;
+        text-align: center;
+        height: auto;
+        overflow: auto;
+    }
+    .first .formContanier{
+        width: 100%;
+        float: left;
+        padding: 0px 60px;
+        padding-bottom: 50px;
+    }
+    .first .contact2Contanier{
+        width: 100%;
+        float: right;
+    }
+    .map{
+        width: 100%;
+        height: auto;
+    }
+    .info .aboutUs{
+        width: 100%;
+        float: left;
+        margin-left: 0px;
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .info .special{
+        width: 100%;
+        float: left;
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .info .hours{
+        width: 100%;
+        float: left;
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .info .contact-details{
+        background-image: url(../imges/contact-details-map.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center center;
+        width: 100%;
+        float: left;
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .info .special .line1{
+        width: 200px;
+        height: 0.5px;
+        background-color: rgba(169,169,169,255);
+        margin: auto;
+    }
+    .info .hours .line2{
+        width: 200px;
+        height: 0.5px;
+        background-color: rgba(169,169,169,255);
+        margin: auto;
+    }
+    .info .contact-details .line3{
+        width: 200px;
+        height: 0.5px;
+        background-color: rgba(169,169,169,255);
+        margin: auto;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media screen  and (min-width:769px) and (max-width:992px){
+
+        .nav{
+        background-color: white;
+        width: 100%;
+        overflow: auto;
+        position: fixed;
+        z-index: 9999999999;
+    }
+    .nav .logo{
+        float: left;
+        width: 14%;
+    }
+    .nav .logo img{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .nav .navLinks{
+        float: right;
+    }
+    .nav .navLinks ul{
+        list-style-type: none;
+    }
+    .nav .navLinks ul li {
+        display: inline-block;
+        padding: 10px 15px;
+    }
+    .nav .navLinks ul li a{
+        text-decoration: none;
+        color: #333333;
+        font-family: 'Alegreya', serif;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+    .contact{
+        background-image: url(../imges/b3.jpg);
+        background-size:cover;
+        background-position: center center;
+        text-align: center;
+        height: auto;
+        overflow: auto;
+    }
+    .first .formContanier{
+        width: 100%;
+        float: left;
+        padding: 0px 60px;
+        padding-bottom: 50px;
+    }
+    .first .contact2Contanier{
+        width: 100%;
+        float: right;
+        text-align: center;
+    }
+    .map{
+        width: 100%;
+        height: auto;
+    }
+    .info .aboutUs{
+        width: 100%;
+        float: left;
+        margin-left: 0px;
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .info .special{
+        width: 100%;
+        float: left;
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .info .hours{
+        width: 100%;
+        float: left;
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .info .contact-details{
+        background-image: url(../imges/contact-details-map.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center center;
+        width: 100%;
+        float: left;
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .info .special .line1{
+        width: 200px;
+        height: 0.5px;
+        background-color: rgba(169,169,169,255);
+        margin: auto;
+    }
+    .info .hours .line2{
+        width: 200px;
+        height: 0.5px;
+        background-color: rgba(169,169,169,255);
+        margin: auto;
+    }
+    .info .contact-details .line3{
+        width: 200px;
+        height: 0.5px;
+        background-color: rgba(169,169,169,255);
+        margin: auto;
+    }
+}
